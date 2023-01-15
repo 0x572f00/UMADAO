@@ -1,5 +1,4 @@
-# React Webpack Typescript Starter
-> Minimal starter with hot module replacement (HMR) for rapid development.
+# UMA DAO
 
 * **[React](https://facebook.github.io/react/)** (18.x)
 * **[Webpack](https://webpack.js.org/)** (5.x)
