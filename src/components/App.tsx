@@ -95,12 +95,8 @@ try {
     body: JSON.stringify({ query })
   });
   const result = await response.json();
-  console.log(result)
   setData(result.data);
-
-  console.log('currentProp', result.data.findByAddress.auctions.slice(-1))
   setRounds(result.data.findByAddress.auctions)
-
 } catch (err) {
   setError(err);
 } finally {
@@ -115,89 +111,6 @@ try {
     checkCollection()
   }, []);
 
-  // (function() {
-  //     // Add event listener
-  //     document.addEventListener("mousemove", parallax);
-  //     const elem = document.querySelector("#mint");
-  //     // Magic happens here
-  //     function parallax(e) {
-  //         let _w = window.innerWidth/2;
-  //         let _h = window.innerHeight/2;
-  //         let _mouseX = e.clientX;
-  //         let _mouseY = e.clientY;
-  //         let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
-  //         let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
-  //         let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
-  //         let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-  //         console.log(x);
-  //         elem.style.backgroundPosition = x;
-  //     }
-  //
-  // })();
-
-  // {
-  //     rounds.length > 0 &&
-  //     <section className="pastRounds hidden">
-  //       <h2>Past rounds</h2>
-  //
-  //       <div className="container">
-  //
-  //     <div className="col">
-  //       <div className="colHero">
-  //         <h3>Round {rounds.length - 1}</h3>
-  //       </div>
-  //       <div className="colContent">
-  //         {
-  //           [].concat(rounds[rounds.length - 1].proposals.map((value, index) => {
-  //            return (
-  //              <div key={index}>
-  //              {value.title}
-  //              </div>
-  //            )
-  //           }))
-  //         }
-  //       </div>
-  //     </div>
-  //
-  //     <div className="col">
-  //     <div className="colHero">
-  //       <h3>Round {rounds.length - 2}</h3>
-  //     </div>
-  //     <div className="colContent">
-  //       {
-  //         [].concat(rounds[rounds.length - 2].proposals.map((value, index) => {
-  //          return (
-  //            <div key={index}>
-  //            {value.title}
-  //            </div>
-  //          )
-  //         }))
-  //       }
-  //     </div>
-  //     </div>
-  //
-  //     <div className="col">
-  //     <div className="colHero">
-  //       <h3>Round {rounds.length - 3}</h3>
-  //     </div>
-  //     <div className="colContent">
-  //       {
-  //         [].concat(rounds[rounds.length - 3].proposals.map((value, index) => {
-  //          return (
-  //            <div key={index}>
-  //            {value.title}
-  //            </div>
-  //          )
-  //         }))
-  //       }
-  //     </div>
-  //     </div>
-  //
-  //     </div>
-  //
-  //     </section>
-  // }
-  //
 
   function CurrentRoundComponent() {
 
@@ -212,7 +125,7 @@ try {
       <>
       <a href={'https://prop.house/uma/round-'+data.findByAddress.auctions.length} target="_blank" rel="nofollow">
       <h1>
-        ROUND {data.findByAddress.auctions.length} is <span className="status">OPEN</span>
+        ROUND {data.findByAddress.auctions.length} is <br className="mobile"/><span className="status">OPEN</span>
       </h1>
       <div class="deadline">
         accepting proposals until <b>{d.toLocaleString("en-US", format)}</b>
@@ -233,7 +146,7 @@ try {
       <>
       <a href={'https://prop.house/uma/round-'+data.findByAddress.auctions.length} target="_blank" rel="nofollow">
       <h1>
-        ROUND {data.findByAddress.auctions.length} is <span className="status">BEING VOTED</span>
+        ROUND {data.findByAddress.auctions.length} <br className="mobile"/>is <span className="status">BEING VOTED</span>
       </h1>
       <div class="deadline">
         accepting votes until <b>{d.toLocaleString("en-US", format)}</b>
@@ -257,7 +170,7 @@ try {
               </div>
             </a>
             </div>
-            <div className="logo"><div className="logoContainer"><img src="./img/UMADAO.svg" alt="UMA DAO"/></div></div>
+            <div className="logo"><div className="logoContainer"><h1><img src="./img/UMADAO.svg" alt="UMA DAO"/></h1></div></div>
             <div className="social">
               <a href="https://discord.gg/ryZsjTaryF" target="_blank">
                 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
