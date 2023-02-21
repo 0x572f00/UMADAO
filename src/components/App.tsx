@@ -238,6 +238,13 @@ try {
                   </div>
               </div>
 
+              <div className="umaImgs">
+                  <img src="img/tokens/165.jpg" alt=""/>
+                  <img src="img/tokens/166.jpg" alt=""/>
+                  <img src="img/tokens/167.jpg" alt=""/>
+                  <img src="img/tokens/168.jpg" alt=""/>
+              </div>
+
               <div className="aspiring">
               <h3>Aspiring to be</h3>
               <span className="spin"><span className="item">decentralized</span><span className="item">autonomous</span> <span className="item">organized</span><span className="item">social</span><span className="item">fun</span></span>
@@ -253,40 +260,77 @@ try {
         </section>
 
         <section className="faq">
+
+          <div className="uma">
+            <h1>UMA = <span className='u'>U</span>NIDENTIFIED <br/><span className='u'>M</span>YSTERY <span className='u'>A</span>NIMAL.</h1>
+          </div>
+
           <div className="content">
+
+          <div className="container">
+              <div className="col">
+                <div className="colHero">
+                  <h3>CC<span className='u'>0</span></h3>
+                </div>
+                <div className="colContent">
+                <p>"no copyright reserved"</p>
+                </div>
+              </div>
+              <div className="col">
+                <div className="colHero">
+                  <h3>UMA DAO / UMA House</h3>
+                </div>
+                <div className="colContent">
+                <p>UMA decentralized autonomous organization</p>
+                </div>
+              </div>
+            </div>
 
           <h2>
               <span className='u'>F</span>requently <span className='u'>a</span>sked <span className='u'>q</span>uestions
           </h2>
 
           <div>
-            <h3>I can't mint! How can I be put on the Allowlist?</h3>
-            <p>Find a possible way to contribute, and propose your contribution on the <a href="https://prop.house/uma" className="text-primary">UMA Prop House</a>!</p>
-            <p>If current holders like for it, you'll be able to join their ranks in exchange for your contributions.<br/>
-            You'll get to mint an UMA and thus gain a vote for all further rounds! 1 UMA = 1 vote!</p>
+            <h3>What is UMA?</h3>
+            <p><strong>UMA = UNIDENTIFIED MYSTERY ANIMAL.</strong> <br/>UMA is a no copyright ❌© character based on toys made in Japan by Sun-Min Kim + David Horvath. <br/>No copyright means you are free to reproduce, reuse, and repurpose UMA in your projects.</p>
+            <p>UMA is licensed under CC0 and is in the public domain. Forever. For all.</p>
+          </div>
+          <div>
+            <h3>What does it mean to be licensed under CCO?</h3>
+            <p>CC0 is the "no copyright reserved" option in the Creative Commons toolkit. It effectively means relinquishing all copyright and similar rights to a work and dedicating those rights to the public domain. <br/>Again this means, Forever. For all.</p>
+          </div>
+          <div>
+            <h3>What is a DAO?</h3>
+            <p>A decentralized autonomous organization (DAO) is a system developed to distribute decision-making, management, and entity ownership. Instead of relying on a single individual or small collection of individuals to guide the entity's direction, a DAO intends to give every member a voice, vote, and opportunity to propose initiatives. <br/>In the UMA DAO, this is done through the UMA House on the Prop House infrastructure.</p>
+          </div>
+          <div>
+            <h3>What is the UMA DAO / UMA House?</h3>
+            <p>The UMA decentralized autonomous organization (DAO) exists to expand the UMA universe.  The UMA house was created by Matas to help the expansion, by incentivizing builders & creators to work on and with UMA.</p>
+            <p>Rounds are run on a weekly basis & all winning proposals get rewarded with a UMA NFT each, which doubles as a vote for all future rounds.</p>
+          </div>
+          <div>
+            <h3>How Do I Mint a UMA? I can't mint! <br/>How can I be put on the Allowlist?</h3>
+            <p>Rounds are held weekly at UMA House, which is your opportunity to submit a proposal. Proposals are your opportunity to pitch your vision of how you would expand the UMA-verse. At the end of a round holders of a UMA NFT are able to vote on the top 5 proposals. Those top 5 proposals are then able to mint their UMA NFT which allows them to then vote in future rounds of the UMA House. <br/>This is how the UMA-verse expands and evolves over time through the creativity of the contributors' proposals.</p>
           </div>
           <div>
             <h3>How are winning proposals selected?</h3>
-            <p>Current holders vote on their favorite proposals each week. One UMA being equal to one vote.<br/>
-            In case of ties, the tied proposals submitted earliest get priority. So the top 5 proposals as they show up on Prop House after a completed round, win.</p>
-            <p>If you don't make it in a given round, resubmit your proposal! Resubmitting is easy and encouraged.</p>
-          </div>
-          <div>
-            <h3>How many UMAs will there be?</h3>
-            <p>Hopefully a lot.<br/>
-            UMAs are meant to be inflationary, where the potential value lost to inflation will be more than made up for by the new contributions added to the ecosystem.</p>
-            <p>I (Matas) will be reserving 10% of the supply.</p>
-          </div>
-          <div>
-            <h3>Can I use UMA IP for my art/project/t-shirt store/game/etc?</h3>
-            <p>Yes! UMA, originally created by Sun-Min Kim &amp; <a href="https://twitter.com/davidhorvath" className="text-primary" target="_blank">David Horvath</a>, is in the public domain.<br/>
-            No copyright. CC0. (One of?)</p>
-            <p>The first NFTs to open its art for commercial or any other use to the public</p>
+            <p>Current holders vote on their favorite proposals each week. One UMA being equal to one vote.</p>
+            <p>In case of ties, the tied proposals submitted earliest get priority. So the top 5 proposals as they show up on Prop House after a completed round, win. <br/>1 UMA = 1 vote.</p>
+            <p>Resubmit your proposal if you don't make it in a given round. <br/>Resubmitting is easy and encouraged.</p>
           </div>
           <div>
             <h3>What's the best way to get involved?</h3>
-            <p><a href="https://discord.com/invite/ryZsjTaryF" className="text-primary" target="_blank">Join the discord</a>, say hi! Propose a contribution through the <a href="https://prop.house/uma" className="text-primary" target="_blank">UMA Prop House</a>!<br/>Or&nbsp;<a href="https://twitter.com/matascup" className="text-primary" target="_blank">DM me on Twitter</a>, I'd be more than happy to help you get involved</p>
+            <p>Join the <a href="https://discord.com/invite/ryZsjTaryF" className="text-primary" target="_blank" rel="nofollow">UMA discord</a>, and say hi! Propose a contribution through the <a href="https://prop.house/uma" className="text-primary" target="_blank"  rel="nofollow">UMA Prop House</a>! Or direct message <a href="https://twitter.com/matascup" className="text-primary" target="_blank" rel="nofollow">@Matas</a>, @razorsuns, or other UMA DAO members on Twitter, they will be more than happy to help you get involved.</p>
           </div>
+          <div>
+            <h3>How many UMAs will there be?</h3>
+            <p>Hopefully a lot. UMAs are meant to be inflationary, where the potential value lost to inflation will be more than made up for by the new contributions added to the ecosystem. Matas will be reserving 10% of the supply.</p>
+          </div>
+
+          <h1 className="forever">
+            UMA. Forever. For all.
+          </h1>
+
 
           </div>
 
