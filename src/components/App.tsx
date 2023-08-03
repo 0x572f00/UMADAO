@@ -253,7 +253,7 @@ try {
         </section>
 
         <section id="mint">
-            <a href="https://gateway.ipfscdn.io/ipfs/QmYRUpn6nZjVrraGTTvHnFVAPAgiMoUvuPJAceTMMpBfCJ/nft-drop.html?contract=0x2381B67c6f1CB732fDf8b3B29d3260eC6F7420bC&chainId=1" target="_blank" rel="nofollow">
+            <a href="https://ipfs.io/ipfs/bafybeiev2gmkthauyzpvagqcs77lhoo4aoe5cgb6xk76uy3gwfrfnrh644/nft-drop.html?contract=0x2381B67c6f1CB732fDf8b3B29d3260eC6F7420bC&chainId=1" target="_blank" rel="nofollow">
               <img src="./img/bubble.png" alt=""/>
               <span>Mint</span>
             </a>
