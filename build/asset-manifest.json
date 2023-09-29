@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.755287bd.css",
+    "main.js": "/static/js/main.c351247c.js",
+    "static/js/120.3396615d.chunk.js": "/static/js/120.3396615d.chunk.js",
+    "static/js/727.a01aed7c.chunk.js": "/static/js/727.a01aed7c.chunk.js",
+    "static/js/787.9959dfd7.chunk.js": "/static/js/787.9959dfd7.chunk.js",
+    "static/media/LondrinaSolid-Black.woff": "/static/media/LondrinaSolid-Black.92c260908c95ead2c0f1.woff",
+    "static/media/LondrinaSolid-Black.woff2": "/static/media/LondrinaSolid-Black.c3ff831dd0a322bbaf9f.woff2",
+    "index.html": "/index.html",
+    "main.755287bd.css.map": "/static/css/main.755287bd.css.map",
+    "main.c351247c.js.map": "/static/js/main.c351247c.js.map",
+    "120.3396615d.chunk.js.map": "/static/js/120.3396615d.chunk.js.map",
+    "727.a01aed7c.chunk.js.map": "/static/js/727.a01aed7c.chunk.js.map",
+    "787.9959dfd7.chunk.js.map": "/static/js/787.9959dfd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.755287bd.css",
+    "static/js/main.c351247c.js"
+  ]
+}
